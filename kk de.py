@@ -107,7 +107,7 @@ btn_generate = tk.Button(frame_buttons, text="Buat Password", command=generate_p
 btn_generate.pack(side=tk.LEFT, padx=10)
 
 # Tombol Decrypt
-btn_decrypt = tk.Button(frame_buttons, text="Cek Asli", command=decrypt_password, bg="#2196F3", fg="white", font=("Arial", 10, "bold"))
+btn_decrypt = tk.Button(frame_buttons, text="Dekripsi", command=decrypt_password, bg="#2196F3", fg="white", font=("Arial", 10, "bold"))
 btn_decrypt.pack(side=tk.LEFT, padx=10)
 
 # Output
